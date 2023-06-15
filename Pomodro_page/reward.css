@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #2980b9;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+p {
+  color: rgb(0, 0, 0);
+}
+
+ol {
+  color: rgb(0, 0, 0);
+}
+
+.pomodoro-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background-color: white;
+  height: 3rem;
+}
+
+.time-left {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.inline-text {
+  text-align: center;
+  margin: 0 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.inline-image {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.pomodoro-text {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #2980b9;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 5px;
+  margin-right: 10;
+  cursor: pointer;
+}
+
+.start {
+  border-radius: 10px;
+}
+
+.reset {
+  border-radius: 10px;
+}
+
+p a button {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #2980b9;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 5px;
+  margin-right: 10;
+  cursor: pointer;
+}
+
+div p a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  color: rgb(81, 31, 31);
+  border: none;
+  border-radius: 5px;
+  margin: 5px 8px;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  height: 2rem;
+}
+
+.list-paragraph {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+  background: #3382F1;
+  color: black;
+}
+
+button:active {
+  background-color: #b71c1c;
+}
